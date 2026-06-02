@@ -1,0 +1,5 @@
+run_ts,days_lookback,num_results,num_qualifying,top_model_id,top_version,top_symbol,top_roi_pct
+2026-05-13T12:38:43,45,3640,695,ote_long,5.1.1.1,SOXL,0.4030752043114791
+2026-06-01T14:34:34,45,5,5,ote_long,5.1.1.1,SOXL,0.2590964087802805
+2026-06-01T18:09:16,45,3640,875,rf_tp,4.1.7.3,SOXL,0.729425063913259
+2026-06-01T19:13:09,45,3640,875,rf_tp,4.1.7.3,SOXL,0.729425063913259
