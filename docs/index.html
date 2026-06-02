@@ -28,6 +28,10 @@
     td { padding: .55rem .75rem; border-bottom: 1px solid #21262d; }
     tr:hover td { background: #161b22; }
     .roi { color: #3fb950; font-weight: 600; }
+    .badge-weekly { background:#1f4e8c; color:#79c0ff; font-size:.75rem; font-weight:600;
+                     padding:.15rem .5rem; border-radius:4px; }
+    .badge-daily  { background:#1a3a2a; color:#3fb950; font-size:.75rem; font-weight:600;
+                     padding:.15rem .5rem; border-radius:4px; }
     .footer { margin-top: 3rem; color: #484f58; font-size: .8rem; }
     a { color: #58a6ff; text-decoration: none; }
     a:hover { text-decoration: underline; }
@@ -92,14 +96,14 @@
   
     <table>
       <thead><tr>
-        <th>Date</th><th>Lookback</th><th>Results</th>
-        <th>Qualifying</th><th>Best of Run</th><th>ROI</th>
+        <th>Date</th><th>Type</th><th>Lookback</th>
+        <th>Results</th><th>Qualifying</th><th>Best of Run</th><th>ROI</th>
       </tr></thead>
-      <tbody><tr><td>2026-06-02</td><td>45d</td><td>5</td><td>5</td><td>rf_tp v4.1.7.3 SOXL</td><td class="roi">0.7294%</td></tr>
-<tr><td>2026-06-01</td><td>45d</td><td>3640</td><td>875</td><td>rf_tp v4.1.7.3 SOXL</td><td class="roi">0.7294%</td></tr>
-<tr><td>2026-06-01</td><td>45d</td><td>3640</td><td>875</td><td>rf_tp v4.1.7.3 SOXL</td><td class="roi">0.7294%</td></tr>
-<tr><td>2026-06-01</td><td>45d</td><td>5</td><td>5</td><td>ote_long v5.1.1.1 SOXL</td><td class="roi">0.2591%</td></tr>
-<tr><td>2026-05-13</td><td>45d</td><td>3640</td><td>695</td><td>ote_long v5.1.1.1 SOXL</td><td class="roi">0.4031%</td></tr>
+      <tbody><tr><td>2026-06-02</td><td><span class="badge-daily">daily</span></td><td>45d</td><td>5</td><td>5</td><td>rf_tp v4.1.7.3 SOXL</td><td class="roi">0.7294%</td></tr>
+<tr><td>2026-06-01</td><td><span class="badge-weekly">weekly</span></td><td>45d</td><td>3640</td><td>875</td><td>rf_tp v4.1.7.3 SOXL</td><td class="roi">0.7294%</td></tr>
+<tr><td>2026-06-01</td><td><span class="badge-weekly">weekly</span></td><td>45d</td><td>3640</td><td>875</td><td>rf_tp v4.1.7.3 SOXL</td><td class="roi">0.7294%</td></tr>
+<tr><td>2026-06-01</td><td><span class="badge-daily">daily</span></td><td>45d</td><td>5</td><td>5</td><td>ote_long v5.1.1.1 SOXL</td><td class="roi">0.2591%</td></tr>
+<tr><td>2026-05-13</td><td><span class="badge-weekly">weekly</span></td><td>45d</td><td>3640</td><td>695</td><td>ote_long v5.1.1.1 SOXL</td><td class="roi">0.4031%</td></tr>
 </tbody>
     </table>
 
@@ -186,7 +190,7 @@
   </div>
 
   <div class="footer">
-    Last updated: 2026-06-02 08:27 ET &nbsp;|&nbsp;
+    Last updated: 2026-06-02 08:38 ET &nbsp;|&nbsp;
     <a href="https://github.com/altair0622/tenex" target="_blank">GitHub</a>
   </div>
 </body>
