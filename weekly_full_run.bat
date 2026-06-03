@@ -1,4 +1,11 @@
 @echo off
+:: Self-copy trick: run from temp so git checkout can't modify this file mid-run
+if "%~1"=="__RUNNING__" goto main_logic
+copy "%~f0" "%TEMP%\tenex_weekly_run.bat" /Y >nul
+call "%TEMP%\tenex_weekly_run.bat" __RUNNING__
+exit /b
+
+:main_logic
 cd /d "C:\Users\altai\Dropbox (Personal)\99 XX\00 TradingBot"
 
 for /f %%a in ('powershell -command "Get-Date -Format yyyyMMdd"') do set DATESTR=%%a
